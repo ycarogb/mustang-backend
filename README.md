@@ -11,3 +11,12 @@ O projeto foi desenvolvido durante o módulo 05 do Curso de Programação na Blu
 
 ## Estrutura da Aplicação
 
+### A Aplicação segue um fluxo simples e direto, visando dar ao cliente mais agilidade ao processo de compra.
+
+### O Fluxo acontece da seguinte forma:
+
+- É carregado uma tela do carrinho de compras  já contendo um endpoint que retorna todos os produtos com o método GetAll();
+- Em seguida o cliente insere o CEP de sua residência;
+- Se houver serviço móvel disponível para o CEP, será carregado um carrossel mostrando os parceiros cadastrados aptos a atenderem ao cliente;
+- 
+
