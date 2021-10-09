@@ -37,7 +37,14 @@ namespace Mustang_Back
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddCors();
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder =>
+                    builder.SetIsOriginAllowed(_ => true)
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials());
+            });
             services.AddControllers();
 
 
@@ -159,7 +166,7 @@ namespace Mustang_Back
             }
 
             app.UseHttpsRedirection();
-
+            app.UseCors();
             app.UseRouting();
 
             //app.UseAuthentication();

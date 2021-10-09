@@ -57,7 +57,41 @@ namespace Mustang_Back.Controllers.v1
         }
 
 
-        
+        [HttpPost]
+        public IActionResult Create([FromBody] Produto Produto)
+        {
+            Produto.createdById = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier).Value;
+            return _service.Create(Produto) ?
+                ApiOk("Produto criado com sucesso!") :
+                ApiNotFound("Erro ao criar Produto!");
+        }
+
+        /// <summary>
+        /// "Atualiza um produto específico de acordo com os dados do body"
+        /// </summary>
+        /// <returns></returns>
+        [HttpPut]
+        public IActionResult Update([FromBody] Produto Produto)
+        {
+            Produto.updatedById = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier).Value;
+            return _service.Update(Produto) ?
+                ApiOk("Produto atualizado com sucesso!") :
+                ApiNotFound("Erro ao atualizar Produto!");
+        }
+        /// <summary>
+        /// "Apaga um produto específico de acordo com o id informado"
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [AuthorizeRoles(RoleType.Admin)]
+        [Route("{id}")]
+
+        [HttpDelete]
+        public IActionResult Delete(int? id) =>
+            _service.Delete(id) ?
+                ApiOk("Produto deletado com sucesso!") :
+                ApiNotFound("Erro ao deletar Produto!");
+
 
     }
 }
