@@ -46,6 +46,15 @@ namespace Mustang_Back.Data
                         Descricao = "Maior durabilidade",
                         ImgUrl = "https://static.pneustore.com.br/medias/sys_master/images/images/h38/h59/8859175288862/pneu-farroad-aro-16-frd16-215-65r16-98h-1.jpg"
                     });
+                    
+                    context.Produto.Add(new Models.Produto
+                    {
+                        Marca = "KELLY BY GOODYEAR",
+                        Tipo = "PNEU  ARO 13 KELLY EDGE TOURING 165/70R13 83T XL",
+                        Preco = 297.90,
+                        Descricao = "Maior custo benefício",
+                        ImgUrl = "https://static.pneustore.com.br/medias/sys_master/images/images/h8e/h69/8859692171294/pneu-goodyear-aro-13-kelly-edge-touring-165-70r13-83t-xl-1.jpg"
+                    });
                 }
                 context.SaveChanges();
 
