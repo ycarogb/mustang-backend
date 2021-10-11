@@ -33,6 +33,15 @@ namespace Mustang_Back.Data
                     {
                         Marca = "Farroad",
                         Tipo = "Pneu ARO 16 FRD16 215/65R16 98H",
+                        Preco = 267.99,
+                        Descricao = "Maior durabilidade",
+                        ImgUrl = "https://static.pneustore.com.br/medias/sys_master/images/images/h0c/hb6/8909586071582/pneu-iris-aro-13-ecoris-165-70r13-79t-1.jpg"
+                    });
+                    
+                    context.Produto.Add(new Models.Produto
+                    {
+                        Marca = "iris",
+                        Tipo = "PNEU ARO 13 ECORIS 165/70R13 79T",
                         Preco = 550.44,
                         Descricao = "Maior durabilidade",
                         ImgUrl = "https://static.pneustore.com.br/medias/sys_master/images/images/h38/h59/8859175288862/pneu-farroad-aro-16-frd16-215-65r16-98h-1.jpg"
