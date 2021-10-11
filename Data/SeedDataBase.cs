@@ -23,18 +23,18 @@ namespace Mustang_Back.Data
                     context.Produto.Add(new Models.Produto
                     {
                         Marca = "CooperTires",
-                        Tipo = "Carro",
+                        Tipo = "Pneu Aro 13 CS1 185/70R13 86T",
                         Preco = 319.04,
-                        Descricao = "Pneu Aro 13 CS1 185/70R13 86T",
+                        Descricao = "Melhor custo benefício",
                         ImgUrl = "https://static.pneustore.com.br/medias/sys_master/images/images/h4c/h6a/8859171291166/pneu-cooper-aro-13-cs1-175-70r13-82t-2.jpg"
                     });
 
                     context.Produto.Add(new Models.Produto
                     {
                         Marca = "Farroad",
-                        Tipo = "Carro",
+                        Tipo = "Pneu ARO 16 FRD16 215/65R16 98H",
                         Preco = 550.44,
-                        Descricao = "Pneu ARO 16 FRD16 215/65R16 98H",
+                        Descricao = "Maior durabilidade",
                         ImgUrl = "https://static.pneustore.com.br/medias/sys_master/images/images/h38/h59/8859175288862/pneu-farroad-aro-16-frd16-215-65r16-98h-1.jpg"
                     });
                 }
