@@ -18,5 +18,10 @@ O projeto foi desenvolvido durante o módulo 05 do Curso de Programação na Blu
 - É carregado uma tela do carrinho de compras  já contendo um endpoint que retorna todos os produtos com o método GetAll();
 - Em seguida o cliente insere o CEP de sua residência;
 - Se houver serviço móvel disponível para o CEP, será carregado um carrossel mostrando os parceiros cadastrados aptos a atenderem ao cliente;
+- O DropDown com o serviço móvel terá 3 opções de entrega, sendo o Serviço Móvel, a Retirada em um Parceiro e a Entrega em casa.
+- No serviço móvel o Cliente poderá escolher um combo, logo em seguida aparece um card com a descrição do combo.
+- Um calendário aparece para que o usuário possa escolher uma data para entrega.
+- Logo em seguida o Cliente seleciona um perídodo e se tiver, um cupom de desconto.
+- Então, para finalizar um resumo da compra é disponibilizado.
 - 
 
