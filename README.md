@@ -25,4 +25,4 @@ O projeto foi desenvolvido durante o módulo 05 do Curso de Programação na Blu
 - Então, para finalizar um resumo da compra é disponibilizado.
 - Na entrega em casa o Cliente não tem a opção de escolher um Combo, então em seguida aparece o resumo da compra.
 - Na opção de Retirada com o parceiro irá aparecer um  Carrossel com os parceiros existentes.
-- Em seguida Surge um card contendo opções de combo, sendo eles: 
+- Em seguida Surge um card contendo opções de combo, sendo eles:  Apenas entrega em Centro de Montagem ,  Montagem + Balanceamento, e Cupom de desconto, finalizando com  o resumo da compra.
