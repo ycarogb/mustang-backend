@@ -23,5 +23,6 @@ O projeto foi desenvolvido durante o módulo 05 do Curso de Programação na Blu
 - Um calendário aparece para que o usuário possa escolher uma data para entrega.
 - Logo em seguida o Cliente seleciona um perídodo e se tiver, um cupom de desconto.
 - Então, para finalizar um resumo da compra é disponibilizado.
-- 
-
+- Na entrega em casa o Cliente não tem a opção de escolher um Combo, então em seguida aparece o resumo da compra.
+- Na opção de Retirada com o parceiro irá aparecer um  Carrossel com os parceiros existentes.
+- Em seguida Surge um card contendo opções de combo, sendo eles: 
