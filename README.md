@@ -28,7 +28,7 @@ O projeto foi desenvolvido durante o módulo 05 do Curso de Programação na Blu
 - Em seguida surge um card contendo opções de combo, sendo eles:  Apenas entrega em Centro de Montagem ,  Montagem + Balanceamento, e Cupom de  desconto, finalizando com  o resumo da compra.
 
 ## Front-End da Aplicação
-O fluxo  é  contínuo em toda a aplicação, ou seja,  .......
+## O fluxo  é  contínuo em toda a aplicação, ou seja, o usuário  tem uma visão mais simplificada e limpa sobre as opções de entrega, contendo poucas rotas. Isso faz com que o usuário tenha uma melhor direção ao realizar suas compras e 
 
 
 
