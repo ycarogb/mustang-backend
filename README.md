@@ -27,7 +27,7 @@ O projeto foi desenvolvido durante o módulo 05 do Curso de Programação na Blu
 - Na opção de Retirada com o parceiro irá aparecer um  Carrossel com os parceiros existentes.
 - Em seguida surge um card contendo opções de combo, sendo eles:  Apenas entrega em Centro de Montagem ,  Montagem + Balanceamento, e Cupom de  desconto, finalizando com  o resumo da compra.
 
-#Informações Técnicas
+# Informações Técnicas
 O Back-End desta aplicação foi desenvolvido em linguagem C#, com o framework .NET Core 5.0. Os seguintes pacotes foram utilizados para o desenvolvimento da aplicação:
 - Microsoft.EntityFrameworkCore.SqlServer
 - Microsoft.AspNetCore.Identity.EntityFrameworkCore
