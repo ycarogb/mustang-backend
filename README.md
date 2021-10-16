@@ -9,7 +9,7 @@ O projeto foi desenvolvido durante o módulo 05 do Curso de Programação na Blu
 
 [![Generic badge](https://img.shields.io/badge/Version-1.0-<COLOR>.svg)](https://shields.io/)
 
-##Estrurura da Aplicação
+## Estrutura da Aplicação
 
 ### A Aplicação segue um fluxo simples e direto, visando dar ao cliente mais agilidade ao processo de compra.
 
