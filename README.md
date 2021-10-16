@@ -9,7 +9,7 @@ O projeto foi desenvolvido durante o módulo 05 do Curso de Programação na Blu
 
 [![Generic badge](https://img.shields.io/badge/Version-1.0-<COLOR>.svg)](https://shields.io/)
 
-## Back-End da Aplicação
+##Estrurura da Aplicação
 
 ### A Aplicação segue um fluxo simples e direto, visando dar ao cliente mais agilidade ao processo de compra.
 
@@ -27,14 +27,36 @@ O projeto foi desenvolvido durante o módulo 05 do Curso de Programação na Blu
 - Na opção de Retirada com o parceiro irá aparecer um  Carrossel com os parceiros existentes.
 - Em seguida surge um card contendo opções de combo, sendo eles:  Apenas entrega em Centro de Montagem ,  Montagem + Balanceamento, e Cupom de  desconto, finalizando com  o resumo da compra.
 
-## Front-End da Aplicação
-## O fluxo  é  contínuo em toda a aplicação, ou seja, o usuário  tem uma visão mais simplificada e limpa sobre as opções de entrega, contendo poucas rotas. Isso faz com que o usuário tenha uma melhor direção ao realizar suas compras e 
-
-
-
-
-
+#Informações Técnicas
+O Back-End desta aplicação foi desenvolvido em linguagem C#, com o framework .NET Core 5.0. Os seguintes pacotes foram utilizados para o desenvolvimento da aplicação:
+- Microsoft.EntityFrameworkCore.SqlServer
+- Microsoft.AspNetCore.Identity.EntityFrameworkCore
+- Microsoft.EntityFrameworkCore.Tools
+- Microsoft.AspNetCore.Identity.UI
+O Front-End da aplicação foi desenvolvido em linguagem Javascript, Reactjs, UI Lib e React-animated.
 
 Para finalizar segue abaixo o link da Aplicação Para Melhores Avaliações:
 https://mustangfrontapp.herokuapp.com/
+
+Autores:
+<br />
+Ycaro Batalha
+<br />
+<img style = "border radius: 80%;" src = "" width ="100px;" alt = "" />
+<br />
+Leonardo Pereira
+<br />
+<img style = "border radius: 80%;" src = "" width ="100px;" alt = "" />
+<br />
+Marcos
+<br />
+<img style = "border radius: 80%;" src = "" width ="100px;" alt = "" />
+<br />
+Rosicleia Fürst
+<br />
+<img style = "border radius: 80%;" src = "" width ="100px;" alt = "" />
+<br />
+Thiago Leão
+<br />
+<img style = "border radius: 80%;" src = "" width ="100px;" alt = "" />
 
