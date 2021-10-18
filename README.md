@@ -33,7 +33,7 @@ O Back-End desta aplicação foi desenvolvido em linguagem C#, com o framework .
 - Microsoft.AspNetCore.Identity.EntityFrameworkCore
 - Microsoft.EntityFrameworkCore.Tools
 - Microsoft.AspNetCore.Identity.UI
-O Front-End da aplicação foi desenvolvido em linguagem Javascript, Reactjs, UI Lib e React-animated.
+- O Front-End da aplicação foi desenvolvido em linguagem Javascript, Reactjs, UI Lib e React-animated.
 
 Para finalizar segue abaixo o link da Aplicação Para Melhores Avaliações:
 https://mustangfrontapp.herokuapp.com/
