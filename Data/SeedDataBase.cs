@@ -26,7 +26,8 @@ namespace Mustang_Back.Data
                         Tipo = "Pneu Aro 13 CS1 185/70R13 86T",
                         Preco = 319.04,
                         Descricao = "Melhor custo benefício",
-                        ImgUrl = "https://static.pneustore.com.br/medias/sys_master/images/images/h4c/h6a/8859171291166/pneu-cooper-aro-13-cs1-175-70r13-82t-2.jpg"
+                        ImgUrl = "https://static.pneustore.com.br/medias/sys_master/images/images/h4c/h6a/8859171291166/pneu-cooper-aro-13-cs1-175-70r13-82t-2.jpg",
+                        Quantidade = 4
                     });
 
                     context.Produto.Add(new Models.Produto
@@ -35,7 +36,9 @@ namespace Mustang_Back.Data
                         Tipo = "Pneu ARO 16 FRD16 215/65R16 98H",
                         Preco = 267.99,
                         Descricao = "Maior durabilidade",
-                        ImgUrl = "https://static.pneustore.com.br/medias/sys_master/images/images/h0c/hb6/8909586071582/pneu-iris-aro-13-ecoris-165-70r13-79t-1.jpg"
+                        ImgUrl = "https://static.pneustore.com.br/medias/sys_master/images/images/h0c/hb6/8909586071582/pneu-iris-aro-13-ecoris-165-70r13-79t-1.jpg",
+                        Quantidade = 3
+                        
                     });
                     
                     context.Produto.Add(new Models.Produto
@@ -44,7 +47,9 @@ namespace Mustang_Back.Data
                         Tipo = "PNEU ARO 13 ECORIS 165/70R13 79T",
                         Preco = 550.44,
                         Descricao = "Maior durabilidade",
-                        ImgUrl = "https://static.pneustore.com.br/medias/sys_master/images/images/h38/h59/8859175288862/pneu-farroad-aro-16-frd16-215-65r16-98h-1.jpg"
+                        ImgUrl = "https://static.pneustore.com.br/medias/sys_master/images/images/h38/h59/8859175288862/pneu-farroad-aro-16-frd16-215-65r16-98h-1.jpg",
+                        Quantidade = 2
+
                     });
                     
                     context.Produto.Add(new Models.Produto
@@ -54,6 +59,7 @@ namespace Mustang_Back.Data
                         Preco = 297.90,
                         Descricao = "Maior custo benefício",
                         ImgUrl = "https://static.pneustore.com.br/medias/sys_master/images/images/h8e/h69/8859692171294/pneu-goodyear-aro-13-kelly-edge-touring-165-70r13-83t-xl-1.jpg"
+                        Quantidade = 1
                     });
                 }
                 context.SaveChanges();

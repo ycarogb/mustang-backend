@@ -14,6 +14,8 @@ namespace Mustang_Back.Models
         public  string ImgUrl { get; set; }
         public string Tipo { get; set; }
         public string Descricao { get; set; }
+        public int Quantidade { get; set; }
+
 
         public DateTime? created { get; set; }
         public DateTime? updated { get; set; }
